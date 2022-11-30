@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a02-RyanIII/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a02-RyanIII#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a02-RyanIII#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.39",
+    "node-fetch": "^3.3.0"
+  }
 }
