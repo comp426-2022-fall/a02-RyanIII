@@ -23,7 +23,7 @@ const timezone = moment.tz.guess()  //created timezome in moment
 const latitude = args.n || args.s * -1;
 const longitude = args.e || args.w * -1;
 
-const url = "https://api.open-meteo.com/v1/forecast?" + "latitude=" + latitude + "&longitude=" + longitude + "&daily=precipitation_hours&timezone=" + timezone;
+const url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&daily=precipitation_hours&timezone=" + timezone;
 const responst = await fetch(url);
 const data = await response.json();
 
