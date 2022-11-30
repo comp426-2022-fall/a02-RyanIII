@@ -1,11 +1,12 @@
 {
   "name": "a02-ryaniii",
   "version": "1.0.0",
-  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "description": "This assignment will help me learn to create an installable Node.js command line utility.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a02-RyanIII.git"
@@ -20,5 +21,12 @@
     "minimist": "^1.2.7",
     "moment-timezone": "^0.5.39",
     "node-fetch": "^3.3.0"
+=======
+  "type": "module",
+  "author": "RyanIII",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "galosh.js": "./cli.js"
+>>>>>>> 20a8d266f9011e256547863f4b60cbefda783937
   }
 }
