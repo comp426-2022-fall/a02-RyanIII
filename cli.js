@@ -28,7 +28,7 @@ const response = await fetch(url);
 const data = await response.json();
 
 if (args.j){
-  consol.log(data);
+  console.log(data);
   process.exit(0);
 }
 
