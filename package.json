@@ -10,7 +10,7 @@
     "minimist": "^1.2.7",
     "moment-timezone": "^0.5.39",
     "node-fetch": "^3.3.0"
-    },
+  },
   "type": "module",
   "author": "RyanIII",
   "license": "GPL-3.0-or-later",
